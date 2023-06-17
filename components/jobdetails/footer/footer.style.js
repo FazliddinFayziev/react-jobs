@@ -31,6 +31,7 @@ const styles = StyleSheet.create({
   applyBtn: {
     flex: 1,
     backgroundColor: "#FE7654",
+    padding: '10px',
     height: "100%",
     justifyContent: "center",
     alignItems: "center",

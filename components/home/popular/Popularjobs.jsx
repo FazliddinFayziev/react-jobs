@@ -14,10 +14,11 @@ const Popularjobs = () => {
 
   const { data, isLoading, error } = useFetch({ endpoint: 'search', query: { query: 'React developer' } });
 
-  const [selectedJob, setSelectedJob] = useState()
+  const [selectedJob, setSelectedJob] = useState();
 
   const handleCardPress = (item) => {
-
+    router.push(`/job-details/${item.job_id}`);
+    setSelectedJob(item.job_id)
   }
 
 
@@ -25,9 +26,6 @@ const Popularjobs = () => {
     <View style={styles.container}>
       <View style={styles.header}>
         <Text style={styles.headerTitle}>Popular jobs</Text>
-        <TouchableOpacity>
-          <Text style={styles.headerBtn}>Show all</Text>
-        </TouchableOpacity>
       </View>
 
       <View style={styles.cardsContainer}>

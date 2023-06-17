@@ -1,5 +1,5 @@
 import heart from "../assets/icons/heart.png";
-import menu from "../assets/icons/menu.png";
+import menu from "../assets/icons/jslogo.jpg";
 import search from "../assets/icons/search.png";
 import filter from "../assets/icons/filter.png";
 import left from "../assets/icons/left.png";

@@ -15,6 +15,7 @@ const styles = StyleSheet.create({
     width: dimension,
     height: dimension,
     borderRadius: SIZES.small / 1.25,
+    marginLeft: "30px"
   }),
 });
 
